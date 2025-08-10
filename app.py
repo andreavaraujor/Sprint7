@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-car_data = pd.read_csv(r'C:\Users\GATEWAY\Documents\Sprint7\vehicles_us.csv')
+car_data = pd.read_csv('vehicles_us.csv')
 
 # Separar la columna 'model' en 'manufacturer' y 'model'
 car_data[
