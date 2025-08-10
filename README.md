@@ -15,3 +15,13 @@ Este proyecto utiliza **Python** y **Streamlit** para analizar un conjunto de da
     - **3.2. Gráfico de dispersión**
         - 3.2.1. Odometro vs. Precio
         - 3.2.2. Año del modelo vs. Precio
+
+# Clonar el repositorio
+`git clone https://github.com/andreavaraujor/Sprint7.git`
+`cd Sprint7`
+
+# Instalar dependencias
+`pip install -r requirements.txt`
+
+## Ejecución 
+`streamlit run app.py`
