@@ -20,7 +20,7 @@ cols.insert(idx + 1, 'manufacturer')    # reposicionar 'manufacturer'
 cols.insert(idx + 2, 'model')           # reposicionar 'model'
 car_data = car_data[cols]               # reordenar el DataFrame
 
-st.markdown("<h1 style='text-align: center;'>Car Sales</h1>",
+st.markdown("<h1 style='text-align: center;'>🏁 Car Sales 🏁</h1>",
             unsafe_allow_html=True)  # title
 
 st.markdown('## Data viewer')  # header
