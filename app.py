@@ -20,12 +20,13 @@ cols.insert(idx + 1, 'manufacturer')    # reposicionar 'manufacturer'
 cols.insert(idx + 2, 'model')           # reposicionar 'model'
 car_data = car_data[cols]               # reordenar el DataFrame
 
-st.markdown('# Car Sales')  # title
+st.markdown("<h1 style='text-align: center;'>Car Sales</h1>",
+            unsafe_allow_html=True)  # title
 
 st.markdown('## Data viewer')  # header
 st.dataframe(car_data)
 
-st.markdown('## Car Sales Filtered **')  # header
+st.markdown('## Car Sales Filtered')  # header
 # filtro para manufacturers
 manufacturers = ['All'] + list(car_data['manufacturer'].unique())
 selected_manufacturer = st.selectbox(
