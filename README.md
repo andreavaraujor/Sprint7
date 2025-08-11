@@ -1,6 +1,8 @@
 # Proyecto Sprint7
 
-Este proyecto utiliza **Python** y **Streamlit** para analizar un conjunto de datos de anuncios de venta de automóviles.
+Este proyecto utiliza **Python**, **Streamlit**, **GitHub** y **Render** para analizar un conjunto de datos de anuncios de venta de automóviles.
+El objetivo es construir y desplegar un panel de control web desarrollado inicialmente con VS Code, alojado públicamente en GitHub y deplegado en Render. 
+Con este proyecto, se busca aplicar y consolidar las habilidades adquiridas acerca de las herramientas y prácticas de desarrollo de software. 
 #
 ![Imagen](images/Demo1_sprint7.png)
 
