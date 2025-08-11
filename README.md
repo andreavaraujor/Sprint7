@@ -1,9 +1,10 @@
 # Proyecto Sprint7
 
 Este proyecto utiliza **Python** y **Streamlit** para analizar un conjunto de datos de anuncios de venta de automóviles.
+#
 ![Imagen](images/Demo1_sprint7.png)
 
-
+#
 ## Funcionalidades del proyecto
 - **`Funcionalidad 1:`** Ver dataset completo
 - **`Funcionalidad 2:`** Filtrar dataset
