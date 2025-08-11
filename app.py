@@ -115,3 +115,9 @@ if scatter_button:
 
         # mostrar gráfico de dispersión
         st.plotly_chart(fig, use_container_width=True)
+
+st.markdown("---")  # Línea divisoria
+st.markdown(
+    "<p style='text-align: center; color: gray;'>Desarrollado por Andrea Araujo © 2025</p>",
+    unsafe_allow_html=True
+)
